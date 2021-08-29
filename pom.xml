@@ -6,7 +6,11 @@
 
     <groupId>ru.geekbrains</groupId>
     <artifactId>rabbitmq-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>rabbitmq-blog</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
